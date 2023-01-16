@@ -1,5 +1,28 @@
+* {
+  font-family: sans-serif;
+  padding: 16px;
+}
+
+li {
+  padding: 4px;
+}
+
 input {
+  appearance: none;
+  -webkit-appearance:none;
+  }
+
+label {
+  padding: 1rem;
+  margin: 1rem;
   border-radius: 8px;
   background-color: dodgerblue;
   color: white;
+  font-weight: 700;
+  font-family: sans-serif;
+}
+
+label:hover {
+  background-color: skyblue;
+  color: black;
 }
