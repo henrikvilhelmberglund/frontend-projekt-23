@@ -1,9 +1,9 @@
 {
-      "scripts": {
-      "release": "commit-and-tag-version"
-    },
-  
+	"scripts": {
+		"release": "commit-and-tag-version"
+	},
 	"devDependencies": {
 		"commit-and-tag-version": "^10.1.0"
-	}
+	},
+	"version": "1.1.0"
 }
