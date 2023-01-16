@@ -1,6 +1,6 @@
 * {
   font-family: sans-serif;
-  padding: 16px;
+  padding: 8px;
 }
 
 li {
@@ -13,6 +13,7 @@ input {
   }
 
 label {
+  transition:all, 150ms;
   padding: 1rem;
   margin: 1rem;
   border-radius: 8px;
