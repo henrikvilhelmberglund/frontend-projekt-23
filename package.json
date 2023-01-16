@@ -1,0 +1,5 @@
+{
+	"devDependencies": {
+		"commit-and-tag-version": "^10.1.0"
+	}
+}
