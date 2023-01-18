@@ -1,55 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <script src="main.js" defer></script>
-  <title>Register Service</title>
-</head>
-<body>
-  <form id="registerform" class="registerform" novalidate>
-    <ul>
-      <li>
-        <label for="servicename">Tjänstens namn</label>
-        <input type="text" id="servicename" name="servicename" required minlength="5">
-        <span class="error" id="servicename-error">Du måste fylla i tjänstens namn med minst 5 bokstäver</span>
-      </li>
-      <li>
-        <label for="description">Beskrivning</label>
-        <input type="text" id="description" name="description" required maxlength="200">
-        <span class="error" id="description-error">Du måste fylla i en beskrivning med max 200 bokstäver</span>
-      </li>
-      <li>
-        <label for="price">Kostnad</label>
-        <input type="number" id="price" name="price" required>
-        <span class="error" id="price-error">Du måste fylla en kostnad med siffror</span>
-      </li>
-      <li>
-        <label for="email">E-mail</label>
-        <input type="email" id="email" name="email" required>
-        <span class="error" id="email-error">Du måste fylla i en emailaddress med @</span>
-      </li>
-      <li>
-        <label for="phone">Telefonnr</label>
-        <input type="tel" id="phone" name="phone" required>
-        <span class="error" id="phone-error">Du måste fylla i ett telefonnummer</span>
-      </li>
-      <li>
-        <label for="url">URL</label>
-        <input type="url" id="url" name="url" required>
-        <span class="error" id="url-error">Du måste fylla i en URL som börjar med http:// eller https://</span>
-      </li>
-      <li>
-        <label for="accept">Accepterar Villkoren</label>
-        <input type="checkbox" id="accept" name="accept" required>
-        <span class="error" id="accept-error">Du måste acceptera villkoren </span>
-      </li>
-      <li>
-        <button>Submit</button>
-      </li>
-    </ul>
-  </form>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+    <title>Register Service</title>
+  </head>
+  <body>
+    <form id="registerform" class="registerform" novalidate>
+      <ul>
+        <li>
+          <label for="servicename">Tjänstens namn</label>
+          <input
+            type="text"
+            id="servicename"
+            name="servicename"
+            required
+            minlength="5" />
+          <span class="error" id="servicename-error"
+            >Du måste fylla i tjänstens namn med minst 5 bokstäver</span
+          >
+        </li>
+        <li>
+          <label for="description">Beskrivning</label>
+          <input
+            type="text"
+            id="description"
+            name="description"
+            required
+            maxlength="200" />
+          <span class="error" id="description-error"
+            >Du måste fylla i en beskrivning med max 200 bokstäver</span
+          >
+        </li>
+        <li>
+          <label for="price">Kostnad</label>
+          <input type="number" id="price" name="price" required />
+          <span class="error" id="price-error"
+            >Du måste fylla en kostnad med siffror</span
+          >
+        </li>
+        <li>
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="email" required />
+          <span class="error" id="email-error"
+            >Du måste fylla i en emailaddress med @</span
+          >
+        </li>
+        <li>
+          <label for="phone">Telefonnr</label>
+          <input type="tel" id="phone" name="phone" />
+          <span class="error" id="phone-error"
+            >Du måste fylla i ett telefonnummer</span
+          >
+        </li>
+        <li>
+          <label for="url">URL</label>
+          <input type="url" id="url" name="url" />
+          <span class="error" id="url-error"
+            >Du måste fylla i en URL som börjar med http:// eller https://</span
+          >
+        </li>
+        <li>
+          <label for="accept">Accepterar Villkoren</label>
+          <input type="checkbox" id="accept" name="accept" required />
+          <span class="error" id="accept-error"
+            >Du måste acceptera villkoren
+          </span>
+        </li>
+        <li>
+          <button>Submit</button>
+        </li>
+      </ul>
+    </form>
+  </body>
 </html>
